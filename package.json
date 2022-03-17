@@ -1,0 +1,14 @@
+{
+  "name": "quran-api",
+  "version": "1.0.0",
+  "description": "une api qui renvoie des chapitres,des versets,une recherche par audio,text ou autre format en demandant une version spécifique qui correspond à un mot-clé dans une version ou une langue particuliére",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
