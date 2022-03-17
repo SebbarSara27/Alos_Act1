@@ -6,7 +6,7 @@
 
 var unirest = require("unirest")
 
-var req = unirest("GET", "http://localhost:3004/chapters?_limit=10")
+var req = unirest("GET", "http://localhost:3000/chapters?_limit=10")
 
 req.headers({ "cache-control": "no-cache", })
 
@@ -18,7 +18,7 @@ console.log(res.body) })
 
 var unirest = require("unirest")
 
-var req = unirest("GET", "http://localhost:3004/chapters?name_like=^M")
+var req = unirest("GET", "http://localhost:3000/chapters?name_like=^M")
 
 req.headers({ "cache-control": "no-cache", })
 
