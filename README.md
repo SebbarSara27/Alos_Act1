@@ -1,6 +1,6 @@
 # Alos_Act1
 
-- L'API du Coran renvoie des chapitres, des versets, une recherche par audio, texte ou autre format en demandant une version spécifique qui correspond à un mot-clé dans une version ou une langue particulière, et les développeurs peuvent accéder aux options de récitation, de traduction, de juz, de tafsir et d'implémentation dans une application.
+- L'API du Coran renvoie des chapitres(surahs), des versets(ayahs), une recherche par audio, texte ou autre format en demandant une version spécifique qui correspond à un mot-clé dans une version ou une langue particulière, et les développeurs peuvent accéder aux options de récitation, de traduction, de juz, de tafsir et d'implémentation dans une application.
 
 - Listing 2 pour a cher seulement les 10 premiers enregistrements
 
