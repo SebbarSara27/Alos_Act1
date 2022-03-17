@@ -1,5 +1,6 @@
 # Alos_Act1
 Listing 2 pour a cher seulement les 10 premiers enregistrements
+
 var unirest = require("unirest")
 
  var req = unirest("GET", "http://localhost:3004/chapters?_limit=10")
@@ -13,8 +14,10 @@ req.headers({
  if (res.error) throw new Error(res.error)
  console.log(res.body)
 })
+
 une fonction qui permet de filtrer seulement les ressources de votre API dont le
 nom commence par la lettre M
+
 var unirest = require("unirest")
 
  var req = unirest("GET", "http://localhost:3004/chapters?englishname_like=^M")
@@ -28,6 +31,7 @@ req.headers({
  if (res.error) throw new Error(res.error)
  console.log(res.body)
 })
+
 L'en-tête HTTP Cache-Control contient des directives (ou instructions) 
 pour la mise en cache tant dans les requêtes que dans les réponses
 
