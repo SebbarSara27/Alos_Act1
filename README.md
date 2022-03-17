@@ -22,7 +22,7 @@ req.headers({
 
 var unirest = require("unirest")
 
- var req = unirest("GET", "http://localhost:3004/chapters?englishname_like=^M")
+ var req = unirest("GET", "http://localhost:3004/chapters?name_like=^M")
 
 
 req.headers({
